@@ -25,7 +25,7 @@ class ViewController: UIViewController {
             super.viewDidLoad()
             view.addSubview(webView)
             
-            guard let url = URL(string: "https://reedquest.org/") else {
+            guard let url = URL(string: "<your site url here>") else {
                 return
             }
             webView.load(URLRequest(url: url))
